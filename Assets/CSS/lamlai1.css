@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content .clear {
+    clear: both;
+}
+.color-white{
+    color: #fff !important;
+}
+/* header */
+#header {
+    height: 46px;
+    background: #000;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+}
+#nav .down{
+    font-size: 17px;
+}
+#nav,
+#nav .sub-nav {
+    list-style-type: none;
+}
+
+#nav li:hover .sub-nav {
+    display: block;
+}
+
+#nav .sub-nav {
+    display: none;
+    position: absolute;
+}
+
+#nav .sub-nav a {
+    font-size: 19px;
+    margin-top: 0;
+    height: 38px;
+    padding: 5px 12px;
+    background-color: #fff;
+    color: #000;
+    min-width: 150px;
+}
+
+#nav>li {
+    display: inline-block;
+}
+
+#nav li a {
+    text-decoration: none;
+    display: block;
+}
+
+#nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 46px;
+    padding: 0 12px;
+    font-size: 18px;
+}
+
+#nav {
+    position: relative;
+    display: inline-block;
+}
+#nav .subnav li {
+    display: block;
+}
+
+#nav .sub-nav li:hover a,
+#nav>li:hover>a {
+    color: #000;
+    background-color: #ccc;
+
+}
+
+/* search */
+#header .icon {
+    float: right;
+    display: block;
+    line-height: 46px;
+    /* margin-right: 12px; */
+    padding: 0 20px;
+}
+#header .aicon{
+    color: #fff;
+}
+#header .icon:hover{
+    background-color: red;
+}
+
+/* search */
+/* header */
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    position: relative;
+    background: url('/w3_band/Assets/img/Slider/slider2.jpg') top center / cover no-repeat;
+}
+#slider .slider-content{
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+   bottom: 37px;
+}
+.heading{
+    font-size: 35px;
+    font-weight: 400;
+}
+#content {}
+#content-section{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px;
+}
+#content .section-heading {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+#content .section-sub-heading{
+text-align: center;
+font-size: 15px;
+font-style: italic;
+opacity: 0.7;
+margin-top: 25px;
+}
+#content .section-text{
+    text-align: center;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.4;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+#content .member-list{
+margin-top: 48px;
+}
+
+#content .member-item{
+    float: left;
+    text-align: center;
+    width: calc(100% / 3);
+    padding: 0 8px;
+}
+
+#content .member-name{
+
+}
+
+#content .member-img{
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
+
+}
+#content .place-tour{
+    background-color: #000;
+}
+.ticker{
+    background-color: #fff;
+    margin-top: 40px;
+}
+.ticker li {
+    padding: 8px 16px;
+    border: #ddd solid 1px;
+    color: #757575;
+    list-style-type: none;
+}
+.sold-out {
+color: #fff;
+background-color: #F44336; 
+padding: 3px 4px;
+margin-left: 16px;
+}
+.quantiy{
+    float: right;   
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -3px;
+}
+#content .place-list{
+margin: 32px -9px  48px;
+}
+
+#content .place-item{
+    float: left;
+    color: #fff;
+    width: calc(100% / 3 );
+    padding: 0 9px;
+}
+
+#content .place-img:hover {
+    opacity: 0.6;
+}
+#content .place-img{
+width: 100%;
+}
+#content .place-body{
+    padding: 15px;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000;
+}
+#content .place-heading{
+margin-top: 15px;
+font-size: 18px;
+font-weight: 500;
+}
+
+#content .place-time{
+margin: 15px 0;
+color: #757575;
+}
+
+#content .place-text{
+margin: 15px 0;
+}
+
+#content .place-buy:hover{
+    background-color: #ccc;
+    color: #000;
+}
+#content .place-buy{
+    width: 75px;
+    height: 24px;
+    text-align: center;
+    padding: 12px 16px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    line-height: 38px;
+}
+
+#fotter {}

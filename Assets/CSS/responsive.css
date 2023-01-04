@@ -1,0 +1,102 @@
+/* PC  */
+@media (min-width:64em){
+    
+}
+
+/* mobile and tablet */
+@media (max-width:63.9375em){
+.btn{
+    padding: 15px 16px;
+
+}
+.s-mt32{
+    margin-top: 20px;
+}     
+.contact-input .form-control {
+    padding: 18px;
+
+}
+.form-content .contact-info{
+    line-height: 2;
+}
+[class^="ti-"], [class*=" ti-"]{
+
+padding: 0 8px;
+}
+.content-fotter .icon-fotter{
+    font-size: 28px;
+}
+.content-fotter .content a{
+    padding: 12px 0;
+    display: inline-block;
+}
+}
+/* Tablet  */
+@media (min-width:46.25em) and (max-width:63.9375em){
+    #content .content-section {
+       
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+/* mobile  */
+@media (max-width:46.1875em){
+    .s-coll-full{
+        width: 100%;
+    }
+    .s-mt16{
+        margin-top: 16px;
+    }
+    .s-mt8{
+        margin-top: 8px;
+    }
+    .s-full-width{
+        width: 100% !important;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .icon{
+        display: none;
+    }
+    #header .menu-mobile-btn{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+        padding: 11px 0 ;
+        padding-left: 21px;
+        
+    }
+    #nav>li>a{
+        padding: 1px 24px;
+    }
+    #nav .subnav a{
+        color: #fff;
+    }
+    
+    
+    #nav {
+        display: block;
+    }
+    #content .content-section {
+       
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+}
