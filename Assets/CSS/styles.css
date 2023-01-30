@@ -364,6 +364,12 @@ left: 0; */
     color: rgba(0,0,0,0.6);
     
 }
+#fotter .content a{
+font-weight: 700;
+}
+#fotter .content a:hover {
+    color: #f44336;
+}
 /* Main */
 
 .Ticket-modal {
